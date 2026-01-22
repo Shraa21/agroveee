@@ -19,9 +19,6 @@ export default defineConfig({
         ]
       : []),
   ],
-  //changes
-  base: "/agroveee",
-  
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
